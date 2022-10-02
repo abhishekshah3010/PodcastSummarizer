@@ -6,4 +6,4 @@
 - Technologies: AWS, Python, PyTorch, Tensorflow, HTML, CSS, JavaScript, ReactJS
 
 
-The project is still in progress and is expected to be complete by the end of November'23.
+### The project is still in progress and is expected to be complete by the end of November'23.
