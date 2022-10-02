@@ -4,3 +4,6 @@
 - Fine-tuning a Transformer-based summarization model to specifically handle podcast summaries using transcripts generated from an audio podcast. 
 - The summarized transcript will then be published on a web app.
 - Technologies: AWS, Python, PyTorch, Tensorflow, HTML, CSS, JavaScript, ReactJS
+
+
+The project is still in progress and is expected to be complete by the end of November'23.
