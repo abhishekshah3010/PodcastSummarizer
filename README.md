@@ -24,6 +24,7 @@ I developed and fine-tuned an extractive summarization model that will automatic
 Along with all these technologies, I am also using **flask** for our front end and two prominent python libraries: **sumy** and **nltk**.
 
 
+*ARCHITECTURE*
 **Terraform (IaC)**
 
 The application uses Terraform as the IaC (Infrastructure as Code) to build all the resources required for the backend to function as well as the EC2 that hosts the frontend Flask application. Terraform requires the user details to run the code. We have provided this to the provider.tf file. Terraform first authenticates the user and then uses these credentials to create all the required resources. Thus, the user also needs access to use all the AWS services.
