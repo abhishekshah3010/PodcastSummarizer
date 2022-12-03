@@ -1,5 +1,7 @@
 # **PODCAST SUMMARIZER**
 
+Open "Application_Demo.pdf" for the result and working of the appliaction. 
+
 **OVERVIEW AND GOALS**
 
 A podcast is an audio program or simply a series of spoken word or audio episodes, all focused on a particular topic or theme covering anything from politics and sports to pop culture, journalism, and whatnot. Podcasting is an increasingly popular hobby because of its ease of access which is - it can be listened to whenever and wherever you want. These podcasts or podcast episodes are portrayed to be very long and this can be easily discouraging and distracting for one to hear. Therefore, I developed an idea of summarizing the entire content of the podcast one wishes to hear. But no one will read a paragraph-long summary just to make sure whether they should listen to a podcast or not. So I thought of another way which is, to extract the main points of the podcast, highlight it as a summary and eventually convince one to listen to it all.
