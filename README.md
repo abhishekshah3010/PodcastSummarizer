@@ -24,7 +24,8 @@ I developed and fine-tuned an extractive summarization model that will automatic
 Along with all these technologies, I am also using **flask** for our front end and two prominent python libraries: **sumy** and **nltk**.
 
 
-*ARCHITECTURE*
+**ARCHITECTURE**
+
 **Terraform (IaC)**
 
 The application uses Terraform as the IaC (Infrastructure as Code) to build all the resources required for the backend to function as well as the EC2 that hosts the frontend Flask application. Terraform requires the user details to run the code. We have provided this to the provider.tf file. Terraform first authenticates the user and then uses these credentials to create all the required resources. Thus, the user also needs access to use all the AWS services.
@@ -65,4 +66,5 @@ The back-end functionalities including text summarization and sentiment analysis
 All sentences will be ranked based on their score in descending order, and the 5 highest scoring sentences will be taken as our extractive summary. After that, we use boto3 to pass this summarized text to AWS Comprehend and receive the sentiment status (of either Mixed, Neutral, Positive, or Negative) back. The summary plus its detected sentiment will be output to a separate S3 bucket. The Flask application will then pick it up from the bucket and display it back to the UI.
 
 **ESTIMATED COSTS**
+
 Overall, it costs 317,326 USD for a year which is around 26500 USD every month considering 10,000 users using the application for about 2 podcasts each day. When it comes to just a single user, the application is very cheap and will just cost around 2.7 USD per day.
